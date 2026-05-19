@@ -10,6 +10,12 @@ class ClasseTeste {
         ClasseTesteGuerreiro.testar();
         ClasseTesteMago.testar();
         ClasseTesteInventario.testar();
+        ClasseTesteBatalha.testar();
+        ClasseTesteArma.testar();
+        ClasseTesteMagia.testar();
+        ClasseTesteJogoController.testar();
+        ClasseTesteTelaJogo.testar();
+
     }
 
 }
