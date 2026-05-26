@@ -1,5 +1,6 @@
-public class Heroi extends Personagem{
+package model;
 
+public class Heroi extends Personagem {
     protected int xp;
     protected String arma;
 

@@ -1,5 +1,6 @@
+package Controller;
 import java.util.Scanner;
-// classe que é responsavel por controlar o fluxo do jogo 
+
 public class Controller {
     private Heroi heroi;
     private Inimigo inimigo;
@@ -18,6 +19,7 @@ public class Controller {
         System.out.println(" \n=== Jogo Iniciado ===");
         loopjogo();
     }
+
     private void loopjogo() {
         while (heroi.estavivo() && inimigo.estavivo()) {
             System.out.println("Status");

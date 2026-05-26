@@ -1,4 +1,6 @@
-public abstract class Personagem implements  Atacavel{
+package model;
+
+public abstract class Personagem {
     protected String nome;
     protected int vida;
     protected int nivel;
