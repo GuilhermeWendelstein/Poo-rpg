@@ -2,7 +2,7 @@ package model;
 import java.util.ArrayList;
 
 public class Inventario {
-    private ArrayList<String> itens = new ArrayList<>();
+    private ArrayList<Item> itens = new ArrayList<>();
 
     public void adicionarItem(Item item) { itens.add(item);}
     public void listarItens(){
